@@ -7,7 +7,7 @@
 				"s3:PutObject"
 			],
 	    "Effect": "Allow",
-	    "Resource": "arn:aws:s3:::amonnat/*"
+	    "Resource": "<YOUR_BUCKET_ARN_HERE>/*"
 	  },
 		{            
 			"Sid": "PermissionsToCreateAndUpdateFunction",            
@@ -18,7 +18,7 @@
 				"lambda:UpdateFunctionCode"            
 			],            
 			"Resource": [                
-				"arn:aws:lambda:us-east-2:725246998128:function:fastapi"            
+				"<YOUR_LAMBDA_ARN_HERE>"            
 			]        
 		}
 	]
