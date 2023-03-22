@@ -16,7 +16,6 @@ def read_name(name:str):
     return {"hello":name}
 
 @app.post("/hello")
-def read_name(name:str):
     return {"hello":name}
 
 
